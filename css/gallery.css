@@ -1,0 +1,25 @@
+body{
+	text-align: center;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	background-image: url(../4.jpg);
+	color: black;
+	align-items: center;
+	padding: 20px;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+.gallery img{
+	width: 360px;
+	height: 240px;
+	margin: 10px;
+}
